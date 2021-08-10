@@ -33,7 +33,7 @@ const SignIn = ({ onRouteChange }) => {
           <div className=''>
             <input
               onClick={() => onRouteChange('home')}
-              className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
+              className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f5 dib'
               type='submit'
               value='Sign in'
             />
@@ -41,7 +41,7 @@ const SignIn = ({ onRouteChange }) => {
           <div className='lh-copy mt3'>
             <p
               onClick={() => onRouteChange('register')}
-              className='f6 link dim black db pointer'
+              className='f5 link dim black db pointer'
             >
               Register
             </p>

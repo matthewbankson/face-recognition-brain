@@ -44,7 +44,7 @@ const Register = ({ onRouteChange }) => {
           <div className=''>
             <input
               onClick={() => onRouteChange('home')}
-              className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
+              className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f5 dib'
               type='submit'
               value='Register'
             />
